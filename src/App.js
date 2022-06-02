@@ -1,12 +1,13 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
 
   return (
     <div className="izquierda">
-        <h1>¡Bienvenidos a online banking!</h1>
         <Header/>
+        <Main/>
       <div>
         <Footer />
       </div>
